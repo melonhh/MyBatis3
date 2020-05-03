@@ -6,6 +6,13 @@
 <!--名称空间和id组合查找对应的sql语句-->
 <!--使用面向接口时命名空间必须为接口的全类名-->
 <mapper namespace="cn.melon.dao.UserMapper">
+    <resultMap id="rm_user" type="cn.melon.model.User">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="state" property="state"/>
+        <result column="reg_date" property="regDate"/>
+    </resultMap>
 
     <select id="selectOneUser1" resultType="cn.melon.model.User">
         select id, username, password, reg_date regDate, state
@@ -22,5 +29,55 @@
         where id = #{id}
     </select>
 
+    <!--自定义参数名-->
+    <select id="getSomeUsers" resultMap="rm_user"><![CDATA[
+        select *
+        from users
+        where id >= #{start_id} and id < #{end_id}
+    ]]></select>
+
+    <select id="getAllUsers" resultMap="rm_user">
+        select * from users
+    </select>
+
+
+
+    <select id="getMapUserById" resultType="map">
+        select * from users where id=#{id}
+    </select>
+
+
+    <select id="getMapKeyUserById" resultType="map">
+        select * from users where id=#{id}
+    </select>
+    <!--parameterType可省-->
+    <insert id="addOneUser" parameterType="cn.melon.model.User">
+        insert into users(username, password, reg_date, state)
+        values (#{username}, #{password}, #{regDate}, #{state})
+    </insert>
+
+    <!-- 获取新增记录的id, 将id值设置进参数的user对象内(mysql) -->
+    <insert id="addOneUser2" parameterType="cn.melon.model.User"
+            useGeneratedKeys="true" keyProperty="id" databaseId="mysql">
+        insert into users(username, password, reg_date, state)
+        values (#{username}, #{password}, #{regDate}, #{state})
+    </insert>
+
+
+
+    <update id="updateUser">
+        update users
+        set username=#{username},
+            password=#{password},
+            state=#{state},
+            reg_date=#{regDate}
+        where id=#{id}
+    </update>
+
+    <delete id="deleteUser">
+        delete
+        from users
+        where id = #{id}
+    </delete>
 
 </mapper>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.melon.dao.RolesMapper">
+    <!--两个resultMap避免信息冗余-->
+    <resultMap id="rm_roles1" type="cn.melon.model.Roles">
+        <id column="id" property="id"/>
+        <result column="role_name" property="roleName"/>
+        <result column="rstate" property="state"/>
+    </resultMap>
+    <resultMap id="rm_roles2" type="cn.melon.model.Roles">
+        <id column="id" property="id"/>
+        <result column="role_name" property="roleName"/>
+        <result column="rstate" property="state"/>
+        <collection property="persons" select="cn.melon.dao.PersonMapper.getPersonByRid" column="id"/>
+    </resultMap>
+
+
+    <select id="getRolesById" resultMap="rm_roles2">
+        select * from roles where id = #{id}
+    </select>
+
+    <select id="getRolesByRid" resultMap="rm_roles1">
+        select * from roles where id = #{rid}
+    </select>
+</mapper>

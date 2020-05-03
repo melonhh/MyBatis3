@@ -1,0 +1,528 @@
+2020-05-02 09:13:34,613 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 09:13:34,627 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:13:34,628 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:13:34,628 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:13:34,628 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:13:34,682 DEBUG Opening JDBC Connection
+2020-05-02 09:14:12,340 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 09:14:12,357 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:14:12,358 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:14:12,358 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:14:12,358 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:14:12,404 DEBUG Opening JDBC Connection
+2020-05-02 09:14:12,562 DEBUG Created connection 1946988038.
+2020-05-02 09:14:12,562 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@740cae06]
+2020-05-02 09:14:12,565 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-02 09:14:12,590 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 09:14:12,628 DEBUG <==      Total: 1
+2020-05-02 09:14:12,630 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@740cae06]
+2020-05-02 09:14:12,631 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@740cae06]
+2020-05-02 09:14:12,631 DEBUG Returned connection 1946988038 to pool.
+2020-05-02 09:32:54,141 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 09:32:54,164 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:32:54,164 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:32:54,165 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:32:54,165 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:34:00,036 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 09:34:00,053 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:34:00,053 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:34:00,053 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:34:00,053 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:34:38,090 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 09:34:38,103 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:34:38,104 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:34:38,104 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:34:38,104 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:34:38,166 DEBUG Opening JDBC Connection
+2020-05-02 09:34:38,344 DEBUG Created connection 2075809815.
+2020-05-02 09:34:38,344 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7bba5817]
+2020-05-02 09:34:38,347 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-02 09:34:38,385 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 09:34:38,429 DEBUG <==      Total: 1
+2020-05-02 09:34:38,432 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7bba5817]
+2020-05-02 09:34:38,432 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7bba5817]
+2020-05-02 09:34:38,432 DEBUG Returned connection 2075809815 to pool.
+2020-05-02 09:49:39,972 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 09:49:39,994 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:49:39,995 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:49:39,995 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:49:39,995 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:49:40,053 DEBUG Opening JDBC Connection
+2020-05-02 09:50:13,784 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 09:50:13,797 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:50:13,797 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:50:13,797 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:50:13,797 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:50:13,853 DEBUG Opening JDBC Connection
+2020-05-02 09:50:14,021 DEBUG Created connection 2075809815.
+2020-05-02 09:50:14,022 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7bba5817]
+2020-05-02 09:50:14,025 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-02 09:50:14,066 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 09:50:14,103 DEBUG <==      Total: 1
+2020-05-02 09:50:14,105 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7bba5817]
+2020-05-02 09:50:14,105 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7bba5817]
+2020-05-02 09:50:14,106 DEBUG Returned connection 2075809815 to pool.
+2020-05-02 09:54:50,666 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 09:54:50,672 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:54:50,672 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:54:50,672 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:54:50,672 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:54:50,725 DEBUG Opening JDBC Connection
+2020-05-02 09:54:50,860 DEBUG Created connection 20224131.
+2020-05-02 09:54:50,861 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1349883]
+2020-05-02 09:54:50,863 DEBUG ==>  Preparing: select id,username,password,reg_date regDate,state from users where id = ? 
+2020-05-02 09:54:50,888 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 09:54:50,929 DEBUG <==      Total: 1
+2020-05-02 09:54:50,932 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1349883]
+2020-05-02 09:54:50,932 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1349883]
+2020-05-02 09:54:50,932 DEBUG Returned connection 20224131 to pool.
+2020-05-02 09:55:10,057 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 09:55:10,065 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:55:10,065 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:55:10,065 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:55:10,065 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 09:55:10,119 DEBUG Opening JDBC Connection
+2020-05-02 09:55:10,253 DEBUG Created connection 20224131.
+2020-05-02 09:55:10,254 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1349883]
+2020-05-02 09:55:10,257 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-02 09:55:10,295 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 09:55:10,339 DEBUG <==      Total: 1
+2020-05-02 09:55:10,342 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1349883]
+2020-05-02 09:55:10,343 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1349883]
+2020-05-02 09:55:10,343 DEBUG Returned connection 20224131 to pool.
+2020-05-02 10:18:11,477 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:18:11,484 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:18:11,484 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:18:11,484 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:18:11,484 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:18:11,649 DEBUG Created connection 1687940142.
+2020-05-02 10:18:11,651 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:19:40,295 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:19:40,302 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:19:40,302 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:19:40,302 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:19:40,302 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:19:40,460 DEBUG Created connection 1687940142.
+2020-05-02 10:19:40,461 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:20:05,892 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:20:05,906 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:20:05,906 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:20:05,906 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:20:05,906 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:20:06,106 DEBUG Created connection 644052207.
+2020-05-02 10:20:06,107 DEBUG Returned connection 644052207 to pool.
+2020-05-02 10:20:14,438 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:20:14,447 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:20:14,447 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:20:14,447 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:20:14,447 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:20:14,622 DEBUG Created connection 1687940142.
+2020-05-02 10:20:14,624 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:20:38,356 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:20:38,363 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:20:38,363 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:20:38,364 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:20:38,364 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:20:38,511 DEBUG Created connection 1687940142.
+2020-05-02 10:20:38,513 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:20:38,562 DEBUG Opening JDBC Connection
+2020-05-02 10:20:38,562 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 10:20:38,562 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 10:20:38,565 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-02 10:20:38,589 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 10:20:38,620 DEBUG <==      Total: 1
+2020-05-02 10:20:38,621 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 10:20:38,623 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 10:20:38,624 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:21:02,420 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:21:02,430 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:21:02,430 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:21:02,430 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:21:02,430 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:21:02,599 DEBUG Created connection 1687940142.
+2020-05-02 10:21:02,601 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:22:37,740 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:22:37,747 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:22:37,747 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:22:37,748 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:22:37,748 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:22:37,894 DEBUG Created connection 1687940142.
+2020-05-02 10:22:37,895 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:24:42,384 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:24:42,391 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:24:42,391 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:24:42,391 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:24:42,391 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:24:42,545 DEBUG Created connection 1687940142.
+2020-05-02 10:24:42,547 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:25:35,445 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:25:35,453 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:25:35,453 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:25:35,453 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:25:35,453 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:25:35,603 DEBUG Created connection 1687940142.
+2020-05-02 10:25:35,604 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:25:35,608 DEBUG Class not found: org.jboss.vfs.VFS
+2020-05-02 10:25:35,608 DEBUG JBoss 6 VFS API is not available in this environment.
+2020-05-02 10:25:35,609 DEBUG Class not found: org.jboss.vfs.VirtualFile
+2020-05-02 10:25:35,609 DEBUG VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-05-02 10:25:35,609 DEBUG Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-05-02 10:25:35,610 DEBUG Find JAR URL: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/cn/melon/dao
+2020-05-02 10:25:35,610 DEBUG Not a JAR: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/cn/melon/dao
+2020-05-02 10:25:35,655 DEBUG Reader entry: UserMapper.class
+2020-05-02 10:25:35,656 DEBUG Listing file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/cn/melon/dao
+2020-05-02 10:25:35,656 DEBUG Find JAR URL: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/cn/melon/dao/UserMapper.class
+2020-05-02 10:25:35,656 DEBUG Not a JAR: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/cn/melon/dao/UserMapper.class
+2020-05-02 10:25:35,657 DEBUG Reader entry: ����   3 	   getOneUser2 (I)Lcn/melon/model/User; 
+2020-05-02 10:25:35,658 DEBUG Checking to see if class cn.melon.dao.UserMapper matches criteria [is assignable to Object]
+2020-05-02 10:30:50,551 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:30:50,558 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:30:50,558 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:30:50,559 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:30:50,559 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:30:50,710 DEBUG Created connection 1687940142.
+2020-05-02 10:30:50,711 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:31:26,355 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:31:26,363 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:31:26,363 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:31:26,363 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:31:26,363 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:31:26,533 DEBUG Created connection 1687940142.
+2020-05-02 10:31:26,534 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:31:26,600 DEBUG Opening JDBC Connection
+2020-05-02 10:31:26,600 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 10:31:26,600 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 10:31:26,604 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-02 10:31:26,646 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 10:31:26,691 DEBUG <==      Total: 1
+2020-05-02 10:31:26,692 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 10:31:26,693 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 10:31:26,693 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:38:13,341 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:38:13,348 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:38:13,348 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:38:13,348 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:38:13,348 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:38:13,496 DEBUG Created connection 1687940142.
+2020-05-02 10:38:13,497 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:38:41,816 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:38:41,822 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:38:41,822 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:38:41,822 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:38:41,822 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:38:41,972 DEBUG Created connection 1687940142.
+2020-05-02 10:38:41,973 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:40:08,635 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:40:08,641 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:40:08,641 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:40:08,642 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:40:08,642 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:40:08,796 DEBUG Created connection 1687940142.
+2020-05-02 10:40:08,797 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:40:40,718 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:40:40,726 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:40:40,726 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:40:40,726 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:40:40,726 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:40:40,882 DEBUG Created connection 1687940142.
+2020-05-02 10:40:40,883 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:41:39,464 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:41:39,471 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:41:39,471 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:41:39,471 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:41:39,471 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:41:39,611 DEBUG Created connection 1687940142.
+2020-05-02 10:41:39,612 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:47:54,798 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 10:47:54,805 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:47:54,806 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:47:54,806 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:47:54,806 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 10:47:54,955 DEBUG Created connection 1687940142.
+2020-05-02 10:47:54,956 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 10:47:55,024 DEBUG Opening JDBC Connection
+2020-05-02 10:47:55,024 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 10:47:55,024 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 10:47:55,028 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-02 10:47:55,067 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 10:47:55,111 DEBUG <==      Total: 1
+2020-05-02 10:47:55,113 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 10:47:55,114 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 10:47:55,114 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 11:12:40,091 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 11:12:40,106 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 11:12:40,106 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 11:12:40,106 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 11:12:40,106 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 11:12:40,287 DEBUG Created connection 1687940142.
+2020-05-02 11:12:40,288 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 11:12:40,345 DEBUG Opening JDBC Connection
+2020-05-02 11:12:40,345 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 11:12:40,345 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 11:12:40,348 DEBUG ==>  Preparing: insert into users(username, password, reg_date, state) values (?, ?, ?, ?) 
+2020-05-02 11:12:40,386 DEBUG ==> Parameters: root(String), hhh(String), 2020-05-02(Date), 1(Integer)
+2020-05-02 11:12:40,403 DEBUG Rolling back JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 11:12:40,404 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 11:12:40,404 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 11:12:40,404 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 11:13:22,474 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 11:13:22,482 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 11:13:22,482 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 11:13:22,482 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 11:13:22,482 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 11:13:22,633 DEBUG Created connection 1687940142.
+2020-05-02 11:13:22,635 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 11:13:22,691 DEBUG Opening JDBC Connection
+2020-05-02 11:13:22,691 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 11:13:22,691 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 11:13:22,693 DEBUG ==>  Preparing: insert into users(username, password, reg_date, state) values (?, ?, ?, ?) 
+2020-05-02 11:13:22,730 DEBUG ==> Parameters: root(String), hhh(String), 2020-05-02(Date), 1(Integer)
+2020-05-02 11:13:22,742 DEBUG <==    Updates: 1
+2020-05-02 11:13:22,743 DEBUG ==>  Preparing: update users set username=?, password=?, state=?, reg_date=? 
+2020-05-02 11:13:22,744 DEBUG ==> Parameters: root(String), hhh(String), 1(Integer), 2020-05-02(Date)
+2020-05-02 11:13:22,746 DEBUG <==    Updates: 2
+2020-05-02 11:13:22,749 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-02 11:13:22,749 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 11:13:22,778 DEBUG <==      Total: 1
+2020-05-02 11:13:22,780 DEBUG Rolling back JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 11:13:22,783 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 11:13:22,784 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 11:13:22,784 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 13:47:53,357 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 13:47:53,371 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 13:47:53,371 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 13:47:53,371 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 13:47:53,371 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 13:47:53,626 DEBUG Created connection 1687940142.
+2020-05-02 13:47:53,627 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 13:47:53,699 DEBUG Opening JDBC Connection
+2020-05-02 13:47:53,699 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 13:47:53,699 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 13:47:53,702 DEBUG ==>  Preparing: insert into users(username, password, reg_date, state) values (?, ?, ?, ?) 
+2020-05-02 13:47:53,745 DEBUG ==> Parameters: root(String), hhh(String), 2020-05-02(Date), 1(Integer)
+2020-05-02 13:47:53,767 DEBUG <==    Updates: 1
+2020-05-02 13:47:53,767 DEBUG ==>  Preparing: update users set username=?, password=?, state=?, reg_date=? 
+2020-05-02 13:47:53,768 DEBUG ==> Parameters: root(String), hhh(String), 1(Integer), 2020-05-02(Date)
+2020-05-02 13:47:53,771 DEBUG <==    Updates: 2
+2020-05-02 13:47:53,773 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-02 13:47:53,773 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 13:47:53,803 DEBUG <==      Total: 1
+2020-05-02 13:47:53,804 DEBUG Rolling back JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 13:47:53,807 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 13:47:53,808 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 13:47:53,808 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:11:57,327 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 14:11:57,346 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:11:57,346 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:11:57,346 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:11:57,346 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:11:57,564 DEBUG Created connection 644052207.
+2020-05-02 14:11:57,565 DEBUG Returned connection 644052207 to pool.
+2020-05-02 14:11:57,639 DEBUG Opening JDBC Connection
+2020-05-02 14:11:57,639 DEBUG Checked out connection 644052207 from pool.
+2020-05-02 14:11:57,639 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@266374ef]
+2020-05-02 14:11:57,643 DEBUG ==>  Preparing: insert into users(username, password, reg_date, state) values (?, ?, ?, ?) 
+2020-05-02 14:11:57,704 DEBUG ==> Parameters: root(String), hhh(String), 2020-05-02(Date), 1(Integer)
+2020-05-02 14:11:57,708 DEBUG <==    Updates: 1
+2020-05-02 14:11:57,712 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-02 14:11:57,713 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 14:11:57,745 DEBUG <==      Total: 1
+2020-05-02 14:11:57,747 DEBUG Rolling back JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@266374ef]
+2020-05-02 14:11:57,749 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@266374ef]
+2020-05-02 14:11:57,749 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@266374ef]
+2020-05-02 14:11:57,749 DEBUG Returned connection 644052207 to pool.
+2020-05-02 14:13:11,129 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 14:13:11,135 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:13:11,135 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:13:11,135 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:13:11,135 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:13:11,291 DEBUG Created connection 1687940142.
+2020-05-02 14:13:11,292 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:13:11,349 DEBUG Opening JDBC Connection
+2020-05-02 14:13:11,349 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 14:13:11,349 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:13:11,352 DEBUG ==>  Preparing: insert into users(username, password, reg_date, state) values (?, ?, ?, ?) 
+2020-05-02 14:13:11,398 DEBUG ==> Parameters: root(String), hhh(String), 2020-05-02(Date), 1(Integer)
+2020-05-02 14:13:11,407 DEBUG <==    Updates: 1
+2020-05-02 14:13:11,409 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-02 14:13:11,409 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 14:13:11,433 DEBUG <==      Total: 1
+2020-05-02 14:13:11,434 DEBUG Rolling back JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:13:11,436 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:13:11,437 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:13:11,437 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:16:54,633 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 14:16:54,643 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:16:54,643 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:16:54,643 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:16:54,643 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:16:54,806 DEBUG Created connection 1687940142.
+2020-05-02 14:16:54,807 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:16:54,859 DEBUG Opening JDBC Connection
+2020-05-02 14:16:54,860 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 14:16:54,860 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:16:54,862 DEBUG ==>  Preparing: insert into users(username, password, reg_date, state) values (?, ?, ?, ?) 
+2020-05-02 14:16:54,906 DEBUG ==> Parameters: root(String), hhh(String), 2020-05-02(Date), 1(Integer)
+2020-05-02 14:16:54,909 DEBUG <==    Updates: 1
+2020-05-02 14:16:54,911 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-02 14:16:54,911 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 14:16:54,944 DEBUG <==      Total: 1
+2020-05-02 14:16:54,945 DEBUG Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:16:54,950 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:16:54,951 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:16:54,951 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:20:22,927 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 14:20:22,934 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:20:22,934 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:20:22,934 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:20:22,934 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:20:23,094 DEBUG Created connection 1687940142.
+2020-05-02 14:20:23,095 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:20:23,154 DEBUG Opening JDBC Connection
+2020-05-02 14:20:23,155 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 14:20:23,155 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:20:23,157 DEBUG ==>  Preparing: select * from users where id >= ? and id < ? 
+2020-05-02 14:20:23,186 DEBUG ==> Parameters: 1(Integer), 6(Integer)
+2020-05-02 14:20:23,217 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:20:23,218 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:20:23,218 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:26:26,584 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 14:26:26,633 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:26:26,633 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:26:26,633 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:26:26,633 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:26:26,824 DEBUG Created connection 1687940142.
+2020-05-02 14:26:26,826 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:26:26,886 DEBUG Opening JDBC Connection
+2020-05-02 14:26:26,886 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 14:26:26,886 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:26:26,889 DEBUG ==>  Preparing: select * from users 
+2020-05-02 14:26:26,921 DEBUG ==> Parameters: 
+2020-05-02 14:26:26,961 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:26:26,962 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:26:26,962 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:30:03,238 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 14:30:03,246 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:30:03,246 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:30:03,246 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:30:03,246 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:30:03,409 DEBUG Created connection 1687940142.
+2020-05-02 14:30:03,410 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:30:03,462 DEBUG Opening JDBC Connection
+2020-05-02 14:30:03,462 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 14:30:03,462 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:30:03,465 DEBUG ==>  Preparing: select * from users 
+2020-05-02 14:30:03,490 DEBUG ==> Parameters: 
+2020-05-02 14:30:03,527 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:30:03,528 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:30:03,528 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:44:30,599 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 14:44:30,837 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:44:30,837 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:44:30,838 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:44:30,838 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:44:31,067 DEBUG Created connection 1687940142.
+2020-05-02 14:44:31,068 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:44:31,139 DEBUG Opening JDBC Connection
+2020-05-02 14:44:31,139 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 14:44:31,139 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:44:31,141 DEBUG ==>  Preparing: select * from users where id >= ? and id < ? 
+2020-05-02 14:44:31,170 DEBUG ==> Parameters: 1(Integer), 6(Integer)
+2020-05-02 14:44:31,205 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:44:31,205 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:44:31,206 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:50:14,697 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 14:50:14,705 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:50:14,705 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:50:14,705 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:50:14,705 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:50:14,867 DEBUG Created connection 1687940142.
+2020-05-02 14:50:14,868 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:50:14,922 DEBUG Opening JDBC Connection
+2020-05-02 14:50:14,922 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 14:50:14,922 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:50:14,925 DEBUG ==>  Preparing: select * from users 
+2020-05-02 14:50:14,950 DEBUG ==> Parameters: 
+2020-05-02 14:50:14,987 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:50:14,987 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:50:14,987 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:53:50,260 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 14:53:50,269 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:53:50,269 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:53:50,269 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:53:50,269 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:53:50,454 DEBUG Created connection 1687940142.
+2020-05-02 14:53:50,456 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:53:50,526 DEBUG Opening JDBC Connection
+2020-05-02 14:53:50,526 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 14:53:50,526 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:53:50,529 DEBUG ==>  Preparing: select * from users 
+2020-05-02 14:53:50,569 DEBUG ==> Parameters: 
+2020-05-02 14:53:50,603 DEBUG <==      Total: 2
+2020-05-02 14:53:50,604 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:53:50,604 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:53:50,604 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:54:35,106 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 14:54:35,114 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:54:35,114 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:54:35,114 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:54:35,114 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:54:35,294 DEBUG Created connection 1687940142.
+2020-05-02 14:54:35,296 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:55:05,079 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 14:55:05,088 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:55:05,088 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:55:05,088 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:55:05,088 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:55:05,248 DEBUG Created connection 1687940142.
+2020-05-02 14:55:05,249 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:55:05,310 DEBUG Opening JDBC Connection
+2020-05-02 14:55:05,310 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 14:55:05,310 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:55:05,312 DEBUG ==>  Preparing: select * from users where id >= ? and id < ? 
+2020-05-02 14:55:05,342 DEBUG ==> Parameters: 1(Integer), 6(Integer)
+2020-05-02 14:55:05,379 DEBUG <==      Total: 1
+2020-05-02 14:55:05,381 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:55:05,381 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:55:05,382 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:59:04,577 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 14:59:04,585 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:59:04,585 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:59:04,585 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:59:04,585 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 14:59:04,739 DEBUG Created connection 1687940142.
+2020-05-02 14:59:04,740 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 14:59:04,797 DEBUG Opening JDBC Connection
+2020-05-02 14:59:04,798 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 14:59:04,798 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:59:04,801 DEBUG ==>  Preparing: select * from users where id >= ? and id < ? 
+2020-05-02 14:59:04,834 DEBUG ==> Parameters: 1(Integer), 6(Integer)
+2020-05-02 14:59:04,879 DEBUG <==      Total: 1
+2020-05-02 14:59:04,883 DEBUG ==>  Preparing: select * from users where id=? 
+2020-05-02 14:59:04,883 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 14:59:04,887 DEBUG <==      Total: 1
+2020-05-02 14:59:04,887 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:59:04,888 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 14:59:04,888 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 15:01:32,099 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-02 15:01:32,107 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 15:01:32,107 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 15:01:32,107 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 15:01:32,107 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-02 15:01:32,264 DEBUG Created connection 1687940142.
+2020-05-02 15:01:32,266 DEBUG Returned connection 1687940142 to pool.
+2020-05-02 15:01:32,326 DEBUG Opening JDBC Connection
+2020-05-02 15:01:32,326 DEBUG Checked out connection 1687940142 from pool.
+2020-05-02 15:01:32,326 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 15:01:32,330 DEBUG ==>  Preparing: select * from users where id >= ? and id < ? 
+2020-05-02 15:01:32,364 DEBUG ==> Parameters: 1(Integer), 6(Integer)
+2020-05-02 15:01:32,402 DEBUG <==      Total: 1
+2020-05-02 15:01:32,405 DEBUG ==>  Preparing: select * from users where id=? 
+2020-05-02 15:01:32,406 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 15:01:32,409 DEBUG <==      Total: 1
+2020-05-02 15:01:32,409 DEBUG ==>  Preparing: select * from users where id=? 
+2020-05-02 15:01:32,409 DEBUG ==> Parameters: 1(Integer)
+2020-05-02 15:01:32,411 DEBUG <==      Total: 1
+2020-05-02 15:01:32,412 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 15:01:32,413 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-05-02 15:01:32,413 DEBUG Returned connection 1687940142 to pool.

@@ -10,8 +10,11 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.sql.Date;
+import java.util.List;
+import java.util.Map;
 
-public class mybatisTest {
+public class MybatisTest {
 
     /**
      * 入门案例
@@ -48,11 +51,49 @@ public class mybatisTest {
             UserMapper mapper = session.getMapper(UserMapper.class);
             System.out.println(mapper); // org.apache.ibatis.binding.MapperProxy@32eff876
 
+            User user = new User();
+            user.setPassword("hhh");
+            user.setUsername("root");
+            user.setRegDate(new Date(new java.util.Date().getTime()));
+            user.setState(1);
+
+            // 插入
+            System.out.println(mapper.addOneUser(user));
+            // 修改
+            mapper.updateUser(user);
+            // 获取
             User oneUser = mapper.getOneUser2(1);
             System.out.println(oneUser); // User{id=1, username='melon', password='dwj123##', regDate=2020-05-01, state=1}
+            session.commit();
         }
-
-
     }
+
+
+
+
+
+    /**
+     * 参数获取
+     */
+    @Test
+    public void test() throws IOException {
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(Resources.getResourceAsStream("mybatisConfig.xml"));
+        try(SqlSession session = sqlSessionFactory.openSession()) {
+            UserMapper mapper = session.getMapper(UserMapper.class);
+
+            // resultMap
+            List<User> list = mapper.getSomeUsers(1,6);
+            System.out.println(list);
+
+            // resultType="map"
+            Map<String, Object> map = mapper.getMapUserById(1);
+            System.out.println(map.toString());
+
+            // @MapKey("id")
+            Map<Integer, User> map1 = mapper.getMapKeyUserById(1);
+            System.out.println(map1);
+        }
+    }
+
 
 }

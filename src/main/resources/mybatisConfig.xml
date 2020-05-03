@@ -8,7 +8,8 @@
     <!--完整的settings-->
     <settings>
 <!--        <setting name="cacheEnabled" value="true"/>-->
-<!--        <setting name="lazyLoadingEnabled" value="true"/>-->
+        <setting name="lazyLoadingEnabled" value="true"/>  <!-- true意为关联对象延迟加载 -->
+        <setting name="aggressiveLazyLoading" value="false"/> <!-- true任何方法调用都会加载对象的所有属性-->
 <!--        <setting name="multipleResultSetsEnabled" value="true"/>-->
 <!--        <setting name="useColumnLabel" value="true"/>-->
 <!--        <setting name="useGeneratedKeys" value="false"/>-->
@@ -68,6 +69,9 @@
 <!--        <mapper class="cn.melon.dao.UserMapper"/>-->
         <!-- 第四种：使用包 将包内接口全部注册到映射器里-->
 <!--        <package name="cn.melon.dao"/>-->
+
+        <mapper resource="PersonMapper.xml"/>
+        <mapper resource="RolesMapper.xml"/>
     </mappers>
 </configuration>
 

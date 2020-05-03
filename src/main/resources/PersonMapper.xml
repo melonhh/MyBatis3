@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.melon.dao.PersonMapper">
+    <!--两个resultMap避免信息冗余-->
+    <resultMap id="rm_person1" type="cn.melon.model.Person">
+        <id column="id" property="id"/>
+        <result column="pName" property="pName"/>
+        <!--第一个知识点：fetchType = "lazy|eager"-->
+        <association fetchType="lazy" property="roles" select="cn.melon.dao.RolesMapper.getRolesByRid" column="rid"/>
+        <!--第二个知识点：多个参数-->
+<!--        <association property="roles" select="cn.melon.dao.RolesMapper.getRolesByRid" column="{rid=rid,state=state}"/>-->
+    </resultMap>
+
+    <resultMap id="rm_person2" type="cn.melon.model.Person">
+        <id column="id" property="id"/>
+        <result column="pName" property="pName"/>
+    </resultMap>
+
+    <!--分步查询-->
+    <select id="getPersonById" resultMap="rm_person1">
+        select * from person where id = #{id}
+    </select>
+
+    <select id="getPersonByRid" resultMap="rm_person2">
+        select * from person where rid = #{rid}
+    </select>
+
+</mapper>
