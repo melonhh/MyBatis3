@@ -144,3 +144,495 @@
 2020-05-03 09:57:17,620 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
 2020-05-03 09:57:17,620 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
 2020-05-03 09:57:17,620 DEBUG Returned connection 837108062 to pool.
+2020-05-03 10:16:17,674 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 10:16:17,691 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 10:16:17,691 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 10:16:17,691 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 10:16:17,691 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 10:16:17,910 DEBUG Created connection 837108062.
+2020-05-03 10:16:17,911 DEBUG Returned connection 837108062 to pool.
+2020-05-03 10:16:18,051 DEBUG Opening JDBC Connection
+2020-05-03 10:16:18,051 DEBUG Checked out connection 837108062 from pool.
+2020-05-03 10:16:18,052 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 10:16:18,056 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-03 10:16:18,112 DEBUG ==> Parameters: 1(Integer)
+2020-05-03 10:16:18,187 DEBUG <==      Total: 1
+2020-05-03 10:16:18,189 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 10:16:18,190 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 10:16:18,190 DEBUG Returned connection 837108062 to pool.
+2020-05-03 10:19:05,881 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 10:19:05,887 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 10:19:05,887 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 10:19:05,887 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 10:19:05,888 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 10:19:06,035 DEBUG Created connection 837108062.
+2020-05-03 10:19:06,036 DEBUG Returned connection 837108062 to pool.
+2020-05-03 10:19:06,134 DEBUG Opening JDBC Connection
+2020-05-03 10:19:06,134 DEBUG Checked out connection 837108062 from pool.
+2020-05-03 10:19:06,134 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 10:19:06,138 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-03 10:19:06,177 DEBUG ==> Parameters: 1(Integer)
+2020-05-03 10:19:06,220 DEBUG <==      Total: 1
+2020-05-03 10:19:06,221 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-03 10:19:06,221 DEBUG ==> Parameters: 1(Integer)
+2020-05-03 10:19:06,223 DEBUG <==      Total: 1
+2020-05-03 10:19:06,223 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 10:19:06,223 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 10:19:06,224 DEBUG Returned connection 837108062 to pool.
+2020-05-03 10:23:18,362 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 10:23:18,370 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 10:23:18,370 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 10:23:18,370 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 10:23:18,370 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 10:23:18,521 DEBUG Created connection 837108062.
+2020-05-03 10:23:18,522 DEBUG Returned connection 837108062 to pool.
+2020-05-03 10:23:18,597 DEBUG Opening JDBC Connection
+2020-05-03 10:23:18,597 DEBUG Checked out connection 837108062 from pool.
+2020-05-03 10:23:18,597 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 10:23:18,601 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-03 10:23:18,631 DEBUG ==> Parameters: 1(Integer)
+2020-05-03 10:23:18,671 DEBUG <==      Total: 1
+2020-05-03 10:23:18,672 DEBUG ==>  Preparing: insert into users(username, password, reg_date, state) values (?, ?, ?, ?) 
+2020-05-03 10:23:18,675 DEBUG ==> Parameters: 瓜(String), dwj(String), 2020-05-03(Date), 1(Integer)
+2020-05-03 10:23:18,680 DEBUG <==    Updates: 1
+2020-05-03 10:23:18,681 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-03 10:23:18,681 DEBUG ==> Parameters: 1(Integer)
+2020-05-03 10:23:18,683 DEBUG <==      Total: 1
+2020-05-03 10:23:18,683 DEBUG Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 10:23:18,687 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 10:23:18,688 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 10:23:18,688 DEBUG Returned connection 837108062 to pool.
+2020-05-03 11:11:11,142 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 11:11:11,165 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:11:11,165 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:11:11,165 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:11:11,165 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:11:11,344 DEBUG Created connection 837108062.
+2020-05-03 11:11:11,346 DEBUG Returned connection 837108062 to pool.
+2020-05-03 11:11:11,445 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 11:11:11,448 DEBUG Opening JDBC Connection
+2020-05-03 11:11:11,448 DEBUG Checked out connection 837108062 from pool.
+2020-05-03 11:11:11,448 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:11:11,451 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-03 11:11:11,490 DEBUG ==> Parameters: 1(Integer)
+2020-05-03 11:11:11,531 DEBUG <==      Total: 1
+2020-05-03 11:11:11,532 DEBUG ==>  Preparing: insert into users(username, password, reg_date, state) values (?, ?, ?, ?) 
+2020-05-03 11:11:11,535 DEBUG ==> Parameters: 瓜(String), dwj(String), 2020-05-03(Date), 1(Integer)
+2020-05-03 11:11:11,538 DEBUG <==    Updates: 1
+2020-05-03 11:11:11,539 DEBUG Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:11:11,546 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:11:11,546 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:11:11,546 DEBUG Returned connection 837108062 to pool.
+2020-05-03 11:11:35,764 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 11:11:35,773 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:11:35,773 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:11:35,773 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:11:35,773 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:11:35,945 DEBUG Created connection 837108062.
+2020-05-03 11:11:35,946 DEBUG Returned connection 837108062 to pool.
+2020-05-03 11:11:36,016 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 11:11:36,020 DEBUG Opening JDBC Connection
+2020-05-03 11:11:36,020 DEBUG Checked out connection 837108062 from pool.
+2020-05-03 11:11:36,020 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:11:36,022 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-03 11:11:36,054 DEBUG ==> Parameters: 1(Integer)
+2020-05-03 11:11:36,096 DEBUG <==      Total: 1
+2020-05-03 11:11:36,097 DEBUG ==>  Preparing: insert into users(username, password, reg_date, state) values (?, ?, ?, ?) 
+2020-05-03 11:11:36,100 DEBUG ==> Parameters: 瓜(String), dwj(String), 2020-05-03(Date), 1(Integer)
+2020-05-03 11:11:36,102 DEBUG <==    Updates: 1
+2020-05-03 11:11:36,103 DEBUG Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:11:36,107 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:11:36,108 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:11:36,108 DEBUG Returned connection 837108062 to pool.
+2020-05-03 11:11:36,112 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 11:11:36,112 DEBUG Opening JDBC Connection
+2020-05-03 11:11:36,112 DEBUG Checked out connection 837108062 from pool.
+2020-05-03 11:11:36,112 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:11:36,113 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-03 11:11:36,113 DEBUG ==> Parameters: 1(Integer)
+2020-05-03 11:11:36,114 DEBUG <==      Total: 1
+2020-05-03 11:11:36,129 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:11:36,129 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:11:36,129 DEBUG Returned connection 837108062 to pool.
+2020-05-03 11:12:08,396 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 11:12:08,403 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:12:08,403 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:12:08,403 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:12:08,403 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:12:08,558 DEBUG Created connection 837108062.
+2020-05-03 11:12:08,560 DEBUG Returned connection 837108062 to pool.
+2020-05-03 11:12:08,636 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 11:12:08,639 DEBUG Opening JDBC Connection
+2020-05-03 11:12:08,639 DEBUG Checked out connection 837108062 from pool.
+2020-05-03 11:12:08,639 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:12:08,642 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-03 11:12:08,678 DEBUG ==> Parameters: 1(Integer)
+2020-05-03 11:12:08,717 DEBUG <==      Total: 1
+2020-05-03 11:12:08,718 DEBUG ==>  Preparing: insert into users(username, password, reg_date, state) values (?, ?, ?, ?) 
+2020-05-03 11:12:08,722 DEBUG ==> Parameters: 瓜(String), dwj(String), 2020-05-03(Date), 1(Integer)
+2020-05-03 11:12:08,730 DEBUG <==    Updates: 1
+2020-05-03 11:12:08,731 DEBUG Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:12:08,735 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:12:08,736 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:12:08,736 DEBUG Returned connection 837108062 to pool.
+2020-05-03 11:12:08,738 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 11:12:08,739 DEBUG Opening JDBC Connection
+2020-05-03 11:12:08,739 DEBUG Checked out connection 837108062 from pool.
+2020-05-03 11:12:08,739 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:12:08,739 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-03 11:12:08,740 DEBUG ==> Parameters: 1(Integer)
+2020-05-03 11:12:08,741 DEBUG <==      Total: 1
+2020-05-03 11:12:08,747 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:12:08,747 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e5415e]
+2020-05-03 11:12:08,747 DEBUG Returned connection 837108062 to pool.
+2020-05-03 11:13:38,632 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 11:13:38,646 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:13:38,646 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:13:38,646 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:13:38,646 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 11:13:38,897 DEBUG Created connection 939199469.
+2020-05-03 11:13:38,898 DEBUG Returned connection 939199469 to pool.
+2020-05-03 11:13:38,992 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 11:13:38,995 DEBUG Opening JDBC Connection
+2020-05-03 11:13:38,995 DEBUG Checked out connection 939199469 from pool.
+2020-05-03 11:13:38,996 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37fb0bed]
+2020-05-03 11:13:38,999 DEBUG ==>  Preparing: select * from users where id = ? 
+2020-05-03 11:13:39,033 DEBUG ==> Parameters: 1(Integer)
+2020-05-03 11:13:39,070 DEBUG <==      Total: 1
+2020-05-03 11:13:39,077 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37fb0bed]
+2020-05-03 11:13:39,078 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37fb0bed]
+2020-05-03 11:13:39,078 DEBUG Returned connection 939199469 to pool.
+2020-05-03 11:13:39,081 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.5
+2020-05-03 20:16:58,203 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 20:16:58,394 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:16:58,394 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:16:58,394 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:16:58,394 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:16:58,689 DEBUG Created connection 460201727.
+2020-05-03 20:16:58,690 DEBUG Returned connection 460201727 to pool.
+2020-05-03 20:16:58,729 DEBUG Configuring ehcache from ehcache.xml found in the classpath: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:16:58,731 DEBUG Configuring ehcache from URL: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:16:58,731 DEBUG Configuring ehcache from InputStream
+2020-05-03 20:16:58,759 DEBUG Disk Store Path: F:/ehcache
+2020-05-03 20:16:58,778 DEBUG Creating new CacheManager with default config
+2020-05-03 20:16:58,785 DEBUG propertiesString is null.
+2020-05-03 20:16:58,805 DEBUG No CacheManagerEventListenerFactory class specified. Skipping...
+2020-05-03 20:16:59,311 DEBUG No BootstrapCacheLoaderFactory class specified. Skipping...
+2020-05-03 20:16:59,311 DEBUG CacheWriter factory not configured. Skipping...
+2020-05-03 20:16:59,313 DEBUG No CacheExceptionHandlerFactory class specified. Skipping...
+2020-05-03 20:16:59,338 DEBUG Initialized net.sf.ehcache.store.MemoryStore for cn.melon.dao.UserMapper
+2020-05-03 20:16:59,433 DEBUG Using diskstore path F:\ehcache
+2020-05-03 20:16:59,433 DEBUG Holding exclusive lock on F:\ehcache\.ehcache-diskstore.lock
+2020-05-03 20:16:59,434 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.data
+2020-05-03 20:16:59,434 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:16:59,441 DEBUG Matching data file missing (or empty) for index file. Deleting index file F:\ehcache\cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:16:59,441 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:16:59,449 DEBUG Initialised cache: cn.melon.dao.UserMapper
+2020-05-03 20:16:59,449 DEBUG CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.melon.dao.UserMapper'.
+2020-05-03 20:16:59,575 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:16:59,580 DEBUG Opening JDBC Connection
+2020-05-03 20:16:59,580 DEBUG Checked out connection 460201727 from pool.
+2020-05-03 20:16:59,580 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:16:59,584 DEBUG ==>  Preparing: select id, username, password,state from users where 1=1 and username like ? 
+2020-05-03 20:16:59,629 DEBUG ==> Parameters: %m%(String)
+2020-05-03 20:16:59,707 DEBUG <==      Total: 1
+2020-05-03 20:16:59,712 DEBUG put added 0 on heap
+2020-05-03 20:16:59,718 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:16:59,718 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:16:59,719 DEBUG Returned connection 460201727 to pool.
+2020-05-03 20:23:23,899 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 20:23:23,906 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:23:23,906 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:23:23,906 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:23:23,906 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:23:24,071 DEBUG Created connection 460201727.
+2020-05-03 20:23:24,073 DEBUG Returned connection 460201727 to pool.
+2020-05-03 20:23:24,095 DEBUG Configuring ehcache from ehcache.xml found in the classpath: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:23:24,096 DEBUG Configuring ehcache from URL: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:23:24,096 DEBUG Configuring ehcache from InputStream
+2020-05-03 20:23:24,106 DEBUG Disk Store Path: F:/ehcache
+2020-05-03 20:23:24,116 DEBUG Creating new CacheManager with default config
+2020-05-03 20:23:24,119 DEBUG propertiesString is null.
+2020-05-03 20:23:24,124 DEBUG No CacheManagerEventListenerFactory class specified. Skipping...
+2020-05-03 20:23:24,470 DEBUG No BootstrapCacheLoaderFactory class specified. Skipping...
+2020-05-03 20:23:24,471 DEBUG CacheWriter factory not configured. Skipping...
+2020-05-03 20:23:24,472 DEBUG No CacheExceptionHandlerFactory class specified. Skipping...
+2020-05-03 20:23:24,496 DEBUG Initialized net.sf.ehcache.store.MemoryStore for cn.melon.dao.UserMapper
+2020-05-03 20:23:24,502 DEBUG Using diskstore path F:\ehcache
+2020-05-03 20:23:24,503 DEBUG Holding exclusive lock on F:\ehcache\.ehcache-diskstore.lock
+2020-05-03 20:23:24,503 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:23:24,509 DEBUG Matching data file missing (or empty) for index file. Deleting index file F:\ehcache\cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:23:24,509 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:23:24,516 DEBUG Initialised cache: cn.melon.dao.UserMapper
+2020-05-03 20:23:24,516 DEBUG CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.melon.dao.UserMapper'.
+2020-05-03 20:23:24,628 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:23:24,632 DEBUG Opening JDBC Connection
+2020-05-03 20:23:24,632 DEBUG Checked out connection 460201727 from pool.
+2020-05-03 20:23:24,632 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:23:24,635 DEBUG ==>  Preparing: select id, username, password,state from users where 1=1 and username like ? 
+2020-05-03 20:23:24,673 DEBUG ==> Parameters: %m%(String)
+2020-05-03 20:23:24,713 DEBUG <==      Total: 1
+2020-05-03 20:23:24,715 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:23:24,715 DEBUG ==>  Preparing: select id, username, password,state from users WHERE username like ? 
+2020-05-03 20:23:24,715 DEBUG ==> Parameters: %m%(String)
+2020-05-03 20:23:24,717 DEBUG <==      Total: 1
+2020-05-03 20:23:24,718 DEBUG put added 0 on heap
+2020-05-03 20:23:24,721 DEBUG put added 0 on heap
+2020-05-03 20:23:24,721 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:23:24,722 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:23:24,722 DEBUG Returned connection 460201727 to pool.
+2020-05-03 20:23:34,216 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 20:23:34,225 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:23:34,225 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:23:34,225 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:23:34,225 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:23:34,394 DEBUG Created connection 460201727.
+2020-05-03 20:23:34,395 DEBUG Returned connection 460201727 to pool.
+2020-05-03 20:23:34,419 DEBUG Configuring ehcache from ehcache.xml found in the classpath: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:23:34,420 DEBUG Configuring ehcache from URL: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:23:34,420 DEBUG Configuring ehcache from InputStream
+2020-05-03 20:23:34,431 DEBUG Disk Store Path: F:/ehcache
+2020-05-03 20:23:34,439 DEBUG Creating new CacheManager with default config
+2020-05-03 20:23:34,443 DEBUG propertiesString is null.
+2020-05-03 20:23:34,448 DEBUG No CacheManagerEventListenerFactory class specified. Skipping...
+2020-05-03 20:23:34,779 DEBUG No BootstrapCacheLoaderFactory class specified. Skipping...
+2020-05-03 20:23:34,780 DEBUG CacheWriter factory not configured. Skipping...
+2020-05-03 20:23:34,781 DEBUG No CacheExceptionHandlerFactory class specified. Skipping...
+2020-05-03 20:23:34,813 DEBUG Initialized net.sf.ehcache.store.MemoryStore for cn.melon.dao.UserMapper
+2020-05-03 20:23:34,820 DEBUG Using diskstore path F:\ehcache
+2020-05-03 20:23:34,820 DEBUG Holding exclusive lock on F:\ehcache\.ehcache-diskstore.lock
+2020-05-03 20:23:34,821 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:23:34,827 DEBUG Matching data file missing (or empty) for index file. Deleting index file F:\ehcache\cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:23:34,827 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:23:34,833 DEBUG Initialised cache: cn.melon.dao.UserMapper
+2020-05-03 20:23:34,833 DEBUG CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.melon.dao.UserMapper'.
+2020-05-03 20:23:34,929 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:23:34,932 DEBUG Opening JDBC Connection
+2020-05-03 20:23:34,932 DEBUG Checked out connection 460201727 from pool.
+2020-05-03 20:23:34,933 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:23:34,936 DEBUG ==>  Preparing: select id, username, password,state from users where 1=1 and username like ? 
+2020-05-03 20:23:34,970 DEBUG ==> Parameters: %m%(String)
+2020-05-03 20:23:35,012 DEBUG <==      Total: 1
+2020-05-03 20:23:35,014 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:23:35,014 DEBUG ==>  Preparing: select id, username, password,state from users WHERE username like ? 
+2020-05-03 20:23:35,014 DEBUG ==> Parameters: %sb%(String)
+2020-05-03 20:23:35,015 DEBUG <==      Total: 0
+2020-05-03 20:23:35,016 DEBUG put added 0 on heap
+2020-05-03 20:23:35,019 DEBUG put added 0 on heap
+2020-05-03 20:23:35,019 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:23:35,020 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:23:35,020 DEBUG Returned connection 460201727 to pool.
+2020-05-03 20:23:49,365 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 20:23:49,372 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:23:49,372 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:23:49,372 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:23:49,372 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:23:49,522 DEBUG Created connection 460201727.
+2020-05-03 20:23:49,523 DEBUG Returned connection 460201727 to pool.
+2020-05-03 20:23:49,543 DEBUG Configuring ehcache from ehcache.xml found in the classpath: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:23:49,544 DEBUG Configuring ehcache from URL: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:23:49,544 DEBUG Configuring ehcache from InputStream
+2020-05-03 20:23:49,554 DEBUG Disk Store Path: F:/ehcache
+2020-05-03 20:23:49,562 DEBUG Creating new CacheManager with default config
+2020-05-03 20:23:49,565 DEBUG propertiesString is null.
+2020-05-03 20:23:49,570 DEBUG No CacheManagerEventListenerFactory class specified. Skipping...
+2020-05-03 20:23:49,875 DEBUG No BootstrapCacheLoaderFactory class specified. Skipping...
+2020-05-03 20:23:49,875 DEBUG CacheWriter factory not configured. Skipping...
+2020-05-03 20:23:49,876 DEBUG No CacheExceptionHandlerFactory class specified. Skipping...
+2020-05-03 20:23:49,895 DEBUG Initialized net.sf.ehcache.store.MemoryStore for cn.melon.dao.UserMapper
+2020-05-03 20:23:49,903 DEBUG Using diskstore path F:\ehcache
+2020-05-03 20:23:49,903 DEBUG Holding exclusive lock on F:\ehcache\.ehcache-diskstore.lock
+2020-05-03 20:23:49,904 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:23:49,916 DEBUG Matching data file missing (or empty) for index file. Deleting index file F:\ehcache\cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:23:49,916 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:23:49,925 DEBUG Initialised cache: cn.melon.dao.UserMapper
+2020-05-03 20:23:49,925 DEBUG CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.melon.dao.UserMapper'.
+2020-05-03 20:23:50,036 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:23:50,039 DEBUG Opening JDBC Connection
+2020-05-03 20:23:50,039 DEBUG Checked out connection 460201727 from pool.
+2020-05-03 20:23:50,040 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:23:50,043 DEBUG ==>  Preparing: select id, username, password,state from users where 1=1 and username like ? 
+2020-05-03 20:23:50,079 DEBUG ==> Parameters: %sb%(String)
+2020-05-03 20:23:50,117 DEBUG <==      Total: 0
+2020-05-03 20:23:50,119 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:23:50,119 DEBUG ==>  Preparing: select id, username, password,state from users WHERE username like ? 
+2020-05-03 20:23:50,119 DEBUG ==> Parameters: %sb%(String)
+2020-05-03 20:23:50,120 DEBUG <==      Total: 0
+2020-05-03 20:23:50,122 DEBUG put added 0 on heap
+2020-05-03 20:23:50,127 DEBUG put added 0 on heap
+2020-05-03 20:23:50,128 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:23:50,128 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:23:50,129 DEBUG Returned connection 460201727 to pool.
+2020-05-03 20:29:00,033 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 20:29:00,041 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:29:00,041 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:29:00,041 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:29:00,041 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:29:00,211 DEBUG Created connection 460201727.
+2020-05-03 20:29:00,212 DEBUG Returned connection 460201727 to pool.
+2020-05-03 20:29:00,235 DEBUG Configuring ehcache from ehcache.xml found in the classpath: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:29:00,235 DEBUG Configuring ehcache from URL: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:29:00,236 DEBUG Configuring ehcache from InputStream
+2020-05-03 20:29:00,245 DEBUG Disk Store Path: F:/ehcache
+2020-05-03 20:29:00,252 DEBUG Creating new CacheManager with default config
+2020-05-03 20:29:00,255 DEBUG propertiesString is null.
+2020-05-03 20:29:00,260 DEBUG No CacheManagerEventListenerFactory class specified. Skipping...
+2020-05-03 20:29:00,582 DEBUG No BootstrapCacheLoaderFactory class specified. Skipping...
+2020-05-03 20:29:00,582 DEBUG CacheWriter factory not configured. Skipping...
+2020-05-03 20:29:00,583 DEBUG No CacheExceptionHandlerFactory class specified. Skipping...
+2020-05-03 20:29:00,622 DEBUG Initialized net.sf.ehcache.store.MemoryStore for cn.melon.dao.UserMapper
+2020-05-03 20:29:00,633 DEBUG Using diskstore path F:\ehcache
+2020-05-03 20:29:00,633 DEBUG Holding exclusive lock on F:\ehcache\.ehcache-diskstore.lock
+2020-05-03 20:29:00,635 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:29:00,641 DEBUG Matching data file missing (or empty) for index file. Deleting index file F:\ehcache\cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:29:00,641 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:29:00,647 DEBUG Initialised cache: cn.melon.dao.UserMapper
+2020-05-03 20:29:00,647 DEBUG CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.melon.dao.UserMapper'.
+2020-05-03 20:29:30,395 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 20:29:30,402 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:29:30,402 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:29:30,402 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:29:30,402 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:29:30,552 DEBUG Created connection 460201727.
+2020-05-03 20:29:30,553 DEBUG Returned connection 460201727 to pool.
+2020-05-03 20:29:30,574 DEBUG Configuring ehcache from ehcache.xml found in the classpath: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:29:30,575 DEBUG Configuring ehcache from URL: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:29:30,575 DEBUG Configuring ehcache from InputStream
+2020-05-03 20:29:30,586 DEBUG Disk Store Path: F:/ehcache
+2020-05-03 20:29:30,594 DEBUG Creating new CacheManager with default config
+2020-05-03 20:29:30,597 DEBUG propertiesString is null.
+2020-05-03 20:29:30,604 DEBUG No CacheManagerEventListenerFactory class specified. Skipping...
+2020-05-03 20:29:30,947 DEBUG No BootstrapCacheLoaderFactory class specified. Skipping...
+2020-05-03 20:29:30,947 DEBUG CacheWriter factory not configured. Skipping...
+2020-05-03 20:29:30,949 DEBUG No CacheExceptionHandlerFactory class specified. Skipping...
+2020-05-03 20:29:30,977 DEBUG Initialized net.sf.ehcache.store.MemoryStore for cn.melon.dao.UserMapper
+2020-05-03 20:29:30,981 DEBUG Using diskstore path F:\ehcache
+2020-05-03 20:29:30,981 DEBUG Holding exclusive lock on F:\ehcache\.ehcache-diskstore.lock
+2020-05-03 20:29:30,982 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:29:30,987 DEBUG Matching data file missing (or empty) for index file. Deleting index file F:\ehcache\cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:29:30,987 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:29:30,993 DEBUG Initialised cache: cn.melon.dao.UserMapper
+2020-05-03 20:29:30,993 DEBUG CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.melon.dao.UserMapper'.
+2020-05-03 20:29:31,085 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:29:31,090 DEBUG Opening JDBC Connection
+2020-05-03 20:29:31,090 DEBUG Checked out connection 460201727 from pool.
+2020-05-03 20:29:31,090 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:29:31,094 DEBUG ==>  Preparing: select id, username, password,state from users where 1=1 and username like ? 
+2020-05-03 20:29:31,129 DEBUG ==> Parameters: %sb%(String)
+2020-05-03 20:29:31,166 DEBUG <==      Total: 0
+2020-05-03 20:29:31,168 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:29:31,168 DEBUG ==>  Preparing: select id, username, password,state from users WHERE username like ? 
+2020-05-03 20:29:31,169 DEBUG ==> Parameters: %sb%(String)
+2020-05-03 20:29:31,170 DEBUG <==      Total: 0
+2020-05-03 20:29:31,171 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:29:31,171 DEBUG ==>  Preparing: select id, username, password,state from users where username like ? 
+2020-05-03 20:29:31,171 DEBUG ==> Parameters: %m%(String)
+2020-05-03 20:29:31,174 DEBUG <==      Total: 1
+2020-05-03 20:29:31,175 DEBUG put added 0 on heap
+2020-05-03 20:29:31,178 DEBUG put added 0 on heap
+2020-05-03 20:29:31,178 DEBUG put added 0 on heap
+2020-05-03 20:29:31,179 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:29:31,179 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:29:31,179 DEBUG Returned connection 460201727 to pool.
+2020-05-03 20:42:37,503 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 20:42:37,513 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:42:37,513 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:42:37,513 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:42:37,513 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:42:37,678 DEBUG Created connection 460201727.
+2020-05-03 20:42:37,679 DEBUG Returned connection 460201727 to pool.
+2020-05-03 20:42:37,701 DEBUG Configuring ehcache from ehcache.xml found in the classpath: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:42:37,701 DEBUG Configuring ehcache from URL: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:42:37,702 DEBUG Configuring ehcache from InputStream
+2020-05-03 20:42:37,712 DEBUG Disk Store Path: F:/ehcache
+2020-05-03 20:42:37,719 DEBUG Creating new CacheManager with default config
+2020-05-03 20:42:37,722 DEBUG propertiesString is null.
+2020-05-03 20:42:37,727 DEBUG No CacheManagerEventListenerFactory class specified. Skipping...
+2020-05-03 20:42:38,053 DEBUG No BootstrapCacheLoaderFactory class specified. Skipping...
+2020-05-03 20:42:38,053 DEBUG CacheWriter factory not configured. Skipping...
+2020-05-03 20:42:38,054 DEBUG No CacheExceptionHandlerFactory class specified. Skipping...
+2020-05-03 20:42:38,069 DEBUG Initialized net.sf.ehcache.store.MemoryStore for cn.melon.dao.UserMapper
+2020-05-03 20:42:38,076 DEBUG Using diskstore path F:\ehcache
+2020-05-03 20:42:38,076 DEBUG Holding exclusive lock on F:\ehcache\.ehcache-diskstore.lock
+2020-05-03 20:42:38,077 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:42:38,083 DEBUG Matching data file missing (or empty) for index file. Deleting index file F:\ehcache\cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:42:38,083 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:42:38,089 DEBUG Initialised cache: cn.melon.dao.UserMapper
+2020-05-03 20:42:38,089 DEBUG CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.melon.dao.UserMapper'.
+2020-05-03 20:42:38,186 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:42:38,191 DEBUG Opening JDBC Connection
+2020-05-03 20:42:38,191 DEBUG Checked out connection 460201727 from pool.
+2020-05-03 20:42:38,191 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:42:38,193 DEBUG ==>  Preparing: select id, username, password,state from users where 1=1 and username like ? 
+2020-05-03 20:42:38,231 DEBUG ==> Parameters: %sb%(String)
+2020-05-03 20:42:38,266 DEBUG <==      Total: 0
+2020-05-03 20:42:38,268 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:42:38,268 DEBUG ==>  Preparing: select id, username, password,state from users WHERE username like ? 
+2020-05-03 20:42:38,268 DEBUG ==> Parameters: %sb%(String)
+2020-05-03 20:42:38,269 DEBUG <==      Total: 0
+2020-05-03 20:42:38,270 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:42:38,270 DEBUG ==>  Preparing: select id, username, password,state from users where username like ? 
+2020-05-03 20:42:38,271 DEBUG ==> Parameters: %m%(String)
+2020-05-03 20:42:38,272 DEBUG <==      Total: 1
+2020-05-03 20:42:38,274 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:42:38,274 DEBUG ==>  Preparing: select id, username, password,state from users WHERE id in ( ? , ? , ? , ? , ? , ? ) 
+2020-05-03 20:42:38,275 DEBUG ==> Parameters: 1(Integer), 3(Integer), 4(Integer), 6(Integer), 5(Integer), 7(Integer)
+2020-05-03 20:42:38,281 DEBUG <==      Total: 3
+2020-05-03 20:42:38,282 DEBUG put added 0 on heap
+2020-05-03 20:42:38,285 DEBUG put added 0 on heap
+2020-05-03 20:42:38,285 DEBUG put added 0 on heap
+2020-05-03 20:42:38,286 DEBUG put added 0 on heap
+2020-05-03 20:42:38,286 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:42:38,288 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:42:38,288 DEBUG Returned connection 460201727 to pool.
+2020-05-03 20:53:40,622 DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-03 20:53:40,629 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:53:40,629 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:53:40,629 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:53:40,629 DEBUG PooledDataSource forcefully closed/removed all connections.
+2020-05-03 20:53:40,782 DEBUG Created connection 460201727.
+2020-05-03 20:53:40,784 DEBUG Returned connection 460201727 to pool.
+2020-05-03 20:53:40,804 DEBUG Configuring ehcache from ehcache.xml found in the classpath: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:53:40,805 DEBUG Configuring ehcache from URL: file:/F:/IdeaProjects/MyBatis3/MyBatis3/target/classes/ehcache.xml
+2020-05-03 20:53:40,805 DEBUG Configuring ehcache from InputStream
+2020-05-03 20:53:40,816 DEBUG Disk Store Path: F:/ehcache
+2020-05-03 20:53:40,823 DEBUG Creating new CacheManager with default config
+2020-05-03 20:53:40,826 DEBUG propertiesString is null.
+2020-05-03 20:53:40,832 DEBUG No CacheManagerEventListenerFactory class specified. Skipping...
+2020-05-03 20:53:41,145 DEBUG No BootstrapCacheLoaderFactory class specified. Skipping...
+2020-05-03 20:53:41,145 DEBUG CacheWriter factory not configured. Skipping...
+2020-05-03 20:53:41,147 DEBUG No CacheExceptionHandlerFactory class specified. Skipping...
+2020-05-03 20:53:41,169 DEBUG Initialized net.sf.ehcache.store.MemoryStore for cn.melon.dao.UserMapper
+2020-05-03 20:53:41,176 DEBUG Using diskstore path F:\ehcache
+2020-05-03 20:53:41,176 DEBUG Holding exclusive lock on F:\ehcache\.ehcache-diskstore.lock
+2020-05-03 20:53:41,177 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:53:41,185 DEBUG Matching data file missing (or empty) for index file. Deleting index file F:\ehcache\cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:53:41,185 DEBUG Failed to delete file cn%002emelon%002edao%002e%0055ser%004dapper.index
+2020-05-03 20:53:41,190 DEBUG Initialised cache: cn.melon.dao.UserMapper
+2020-05-03 20:53:41,191 DEBUG CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.melon.dao.UserMapper'.
+2020-05-03 20:53:41,303 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:53:41,307 DEBUG Opening JDBC Connection
+2020-05-03 20:53:41,307 DEBUG Checked out connection 460201727 from pool.
+2020-05-03 20:53:41,308 DEBUG Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:53:41,311 DEBUG ==>  Preparing: select id, username, password,state from users where 1=1 and username like ? 
+2020-05-03 20:53:41,346 DEBUG ==> Parameters: %m%(String)
+2020-05-03 20:53:41,378 DEBUG <==      Total: 1
+2020-05-03 20:53:41,380 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:53:41,380 DEBUG ==>  Preparing: select id, username, password,state from users WHERE username like ? 
+2020-05-03 20:53:41,380 DEBUG ==> Parameters: %sb%(String)
+2020-05-03 20:53:41,381 DEBUG <==      Total: 0
+2020-05-03 20:53:41,382 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:53:41,382 DEBUG ==>  Preparing: select id, username, password,state from users where username like ? 
+2020-05-03 20:53:41,382 DEBUG ==> Parameters: %m%(String)
+2020-05-03 20:53:41,383 DEBUG <==      Total: 1
+2020-05-03 20:53:41,385 DEBUG Cache Hit Ratio [cn.melon.dao.UserMapper]: 0.0
+2020-05-03 20:53:41,385 DEBUG ==>  Preparing: select id, username, password,state from users WHERE id in ( ? , ? , ? , ? , ? , ? ) 
+2020-05-03 20:53:41,386 DEBUG ==> Parameters: 1(Integer), 3(Integer), 4(Integer), 6(Integer), 5(Integer), 7(Integer)
+2020-05-03 20:53:41,387 DEBUG <==      Total: 3
+2020-05-03 20:53:41,388 DEBUG put added 0 on heap
+2020-05-03 20:53:41,391 DEBUG put added 0 on heap
+2020-05-03 20:53:41,391 DEBUG put added 0 on heap
+2020-05-03 20:53:41,391 DEBUG put added 0 on heap
+2020-05-03 20:53:41,391 DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:53:41,393 DEBUG Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6e1eff]
+2020-05-03 20:53:41,394 DEBUG Returned connection 460201727 to pool.

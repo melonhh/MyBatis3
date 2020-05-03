@@ -1,9 +1,9 @@
 package cn.melon;
 
 import cn.melon.dao.PersonMapper;
-import cn.melon.dao.RolesMapper;
+import cn.melon.dao.UserMapper;
 import cn.melon.model.Person;
-import cn.melon.model.Roles;
+import cn.melon.model.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -13,8 +13,9 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
-public class ResultMapTest {
+public class DynamicSQLTest {
     SqlSessionFactory sqlSessionFactory;
 
     @Before
@@ -26,31 +27,28 @@ public class ResultMapTest {
 
 
     /**
-     * 测试PersonMapper
-     * 分步查询
+     * if 标签  where 标签 foreach 标签
+     * getUserByLike
      */
     @Test
     public void test1() {
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
-            PersonMapper personMapper = sqlSession.getMapper(PersonMapper.class);
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
 
-            Person person = personMapper.getPersonById(1);
-            System.out.println(person);
+            List<User> users = userMapper.getUserByLike("%m%");
+            System.out.println(users);
+
+            List<User> users2 = userMapper.getUserByLikeWhere("%sb%");
+            System.out.println(users2);
+
+            List<User> users3 = userMapper.getUserByLikeTrim("%m%");
+            System.out.println(users3);
+
+            int[] ids = {1,3,4,6,5,7};
+            List<User> users4 = userMapper.getUserByLikeForEach(ids);
+            System.out.println(users4);
         }
     }
 
-    /**
-     * 测试RolesMapper
-     * 分步查询
-     */
-    @Test
-    public void test2() {
-        try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
-            RolesMapper rolesmapper = sqlSession.getMapper(RolesMapper.class);
-
-            Roles roles = rolesmapper.getRolesById(1);
-            System.out.println(roles);
-        }
-    }
 
 }

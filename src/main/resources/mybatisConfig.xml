@@ -7,7 +7,8 @@
 
     <!--完整的settings-->
     <settings>
-<!--        <setting name="cacheEnabled" value="true"/>-->
+        <!--开启二级缓存开关-->
+        <setting name="cacheEnabled" value="true"/>
         <setting name="lazyLoadingEnabled" value="true"/>  <!-- true意为关联对象延迟加载 -->
         <setting name="aggressiveLazyLoading" value="false"/> <!-- true任何方法调用都会加载对象的所有属性-->
 <!--        <setting name="multipleResultSetsEnabled" value="true"/>-->
@@ -20,7 +21,7 @@
 <!--        <setting name="defaultFetchSize" value="100"/>-->
 <!--        <setting name="safeRowBoundsEnabled" value="false"/>-->
 
-<!--        使得reg_date 不用取别名 regDate-->
+        <!--使得reg_date 不用取别名 regDate-->
         <setting name="mapUnderscoreToCamelCase" value="false"/>
 
 <!--        <setting name="localCacheScope" value="SESSION"/>-->
